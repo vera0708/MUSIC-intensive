@@ -48,6 +48,28 @@
     }
 
     .header__search {
-        margin-right: 90px;
+        margin-right: 0px;
     }
+
+    .header__logo {
+        margin-right: 12px;
+    }
+}
+
+@media (max-width: 560px) {
+    .header {
+        padding-top: 20px;
+    }
+
+    .header__container {
+        flex-wrap: wrap;
+        justify-content: space-between;
+        gap: 17px;
+    }
+
+    .header__search {
+        order: 1;
+        flex-basis: 100%;
+    }
+
 }
