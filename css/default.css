@@ -53,3 +53,9 @@ p {
     transform: scale(0);
 }
 
+@media (max-width: 560px) {
+    body {
+        padding-bottom: 187px;
+    }
+}
+

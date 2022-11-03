@@ -20,3 +20,22 @@
     line-height: 120%;
     text-transform: capitalize;
 }
+
+@media (max-width: 560px) {
+    .track__info {
+        padding: 8px;
+    }
+
+    .track-info_mobile {
+        text-align: center;
+    }
+
+    .track__title {
+        font-size: 14px;
+        margin-bottom: 4px;
+    }
+    
+    .track__artist {
+        font-size: 12px;
+    }
+}
