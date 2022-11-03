@@ -1,0 +1,22 @@
+.track__info {
+    border-radius: 0px 0px 12px 12px ;
+    text-align: left;
+    background-color: #FFFFFF;
+    padding: 14px 8px;
+    flex-grow: 1;
+    width: 100%;
+}
+
+.track__title {
+    font-weight: 600;
+    line-height: 120%;
+    text-transform: capitalize;
+    margin-bottom: 6px;
+}
+
+.track__artist {
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 120%;
+    text-transform: capitalize;
+}
