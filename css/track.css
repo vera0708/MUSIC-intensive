@@ -49,6 +49,10 @@
     background-color:rgba(255, 255, 255, 0.6);
 }
 
+.track_pause .track__img-wrap::after {
+    background-image: url(../assets/icon/play.svg);
+}
+
 .track:hover .track__img-wrap::after {
     transform: translate(50%, 50%);
     opacity: 1;  
