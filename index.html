@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -12,9 +13,12 @@
     <meta name="msapplication-TileColor" content="#ec8a06">
     <meta name="theme-color" content="#ec8a06">
     <link rel="stylesheet" href="css/index.css">
-    
-    <title><METHED class="MUSIC"></METHED></title>
+
+    <title>
+        <METHED class="MUSIC"></METHED>
+    </title>
 </head>
+
 <body>
     <header class="header">
         <h1 class="visually-hidden">Music site for listening</h1>
@@ -23,14 +27,17 @@
             <form class="header__search search">
                 <input class="search__input" type="search">
                 <button class="search__btn">
-                    <svg width="24" height="24" viewBox="0 0 24 24" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
-                        <path d="M15.5 14H14.71L14.43 13.73C15.41 12.59 16 11.11 16 9.5C16 5.91 13.09 3 9.5 3C5.91 3 3 5.91 3 9.5C3 13.09 5.91 16 9.5 16C11.11 16 12.59 15.41 13.73 14.43L14 14.71V15.5L19 20.49L20.49 19L15.5 14ZM9.5 14C7.01 14 5 11.99 5 9.5C5 7.01 7.01 5 9.5 5C11.99 5 14 7.01 14 9.5C14 11.99 11.99 14 9.5 14Z"/>
+                    <svg width="24" height="24" viewBox="0 0 24 24" fill="currentColor"
+                        xmlns="http://www.w3.org/2000/svg">
+                        <path
+                            d="M15.5 14H14.71L14.43 13.73C15.41 12.59 16 11.11 16 9.5C16 5.91 13.09 3 9.5 3C5.91 3 3 5.91 3 9.5C3 13.09 5.91 16 9.5 16C11.11 16 12.59 15.41 13.73 14.43L14 14.71V15.5L19 20.49L20.49 19L15.5 14ZM9.5 14C7.01 14 5 11.99 5 9.5C5 7.01 7.01 5 9.5 5C11.99 5 14 7.01 14 9.5C14 11.99 11.99 14 9.5 14Z" />
                     </svg>
                 </button>
             </form>
             <button class="header__favorite-btn">
                 <svg width="20" height="19" viewBox="0 0 20 19" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
-                    <path d="M10 18.35L8.55 17.03C3.4 12.36 0 9.28 0 5.5C0 2.42 2.42 0 5.5 0C7.24 0 8.91 0.81 10 2.09C11.09 0.81 12.76 0 14.5 0C17.58 0 20 2.42 20 5.5C20 9.28 16.6 12.36 11.45 17.04L10 18.35Z"/>
+                    <path
+                        d="M10 18.35L8.55 17.03C3.4 12.36 0 9.28 0 5.5C0 2.42 2.42 0 5.5 0C7.24 0 8.91 0.81 10 2.09C11.09 0.81 12.76 0 14.5 0C17.58 0 20 2.42 20 5.5C20 9.28 16.6 12.36 11.45 17.04L10 18.35Z" />
                 </svg>
             </button>
         </div>
@@ -38,7 +45,7 @@
 
     <section class="catalog">
         <h2 class="visually-hidden">List of tracks</h2>
-        <div class="catalog__container">      
+        <div class="catalog__container">
             <!-- <button class="catalog__item track" data-track="audio/The Weeknd - Save Your Tears.mp3">
                 <div class="track__img-wrap">
                     <img class="track__poster" src="assets/img/Rectangle 6-1.jpg" 
@@ -209,10 +216,11 @@
                 <div class="player__volume">
                     <input class="player__volume-input" type="range" min="0" max="100" value="0">
                 </div>
-                <button class="player__icon player__icon-mute"></button>
+                <button class="player__icon player__icon-mute player__controller-mute"></button>
             </div>
         </div>
     </section>
-<script src="js/index.js"></script>
+    <script src="js/index.js"></script>
 </body>
+
 </html>
