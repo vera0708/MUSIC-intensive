@@ -1,91 +1,6 @@
 const API_URL = 'http://localhost:3024/';
 
-let dataMusic = [
-  // {
-  //   id: '1',
-  //   artist: 'The weeknd',
-  //   track: 'Save your tears',
-  //   poster: 'assets/img/Rectangle 6-1.jpg',
-  //   mp3: 'audio/The Weeknd - Save Your Tears.mp3',
-  // },
-  // {
-  //   id: '2',
-  //   artist: 'Imagine Dragons',
-  //   track: 'Follow You',
-  //   poster: 'assets/img/Rectangle 6-2.jpg',
-  //   mp3: 'audio/Imagine Dragons - Follow You.mp3',
-  // },
-  // {
-  //   id: '3',
-  //   artist: 'Tove Lo',
-  //   track: 'How Long',
-  //   poster: 'assets/img/Rectangle 6-3.jpg',
-  //   mp3: 'audio/Tove Lo - How Long.mp3',
-  // },
-  // {
-  //   id: '4',
-  //   artist: 'Tom Odell',
-  //   track: 'Another Love',
-  //   poster: 'assets/img/Rectangle 6-4.jpg',
-  //   mp3: 'audio/Tom Odell - Another Love.mp3',
-  // },
-  // {
-  //   id: '5',
-  //   artist: 'Lana Del Rey',
-  //   track: 'Born To Die',
-  //   poster: 'assets/img/Rectangle 6-5.jpg',
-  //   mp3: 'audio/Lana Del Rey - Born To Die.mp3',
-  // },
-  // {
-  //   id: '6',
-  //   artist: 'Adele',
-  //   track: 'Hello',
-  //   poster: 'assets/img/Rectangle 6-6.jpg',
-  //   mp3: 'audio/Adele - Hello.mp3',
-  // },
-  // {
-  //   id: '7',
-  //   artist: 'Tom Odell',
-  //   track: "Can't Pretend",
-  //   poster: 'assets/img/Rectangle 6-7.jpg',
-  //   mp3: "audio/Tom Odell - Can't Pretend.mp3",
-  // },
-  // {
-  //   id: '8',
-  //   artist: 'Lana Del Rey',
-  //   track: 'Young And Beautiful',
-  //   poster: 'assets/img/Rectangle 6-8.jpg',
-  //   mp3: 'audio/Lana Del Rey - Young And Beautiful.mp3',
-  // },
-  // {
-  //   id: '9',
-  //   artist: 'Adele',
-  //   track: 'Someone Like You',
-  //   poster: 'assets/img/Rectangle 6-9.jpg',
-  //   mp3: 'audio/Adele - Someone Like You.mp3',
-  // },
-  // {
-  //   id: '10',
-  //   artist: 'Imagine Dragons',
-  //   track: 'Natural',
-  //   poster: 'assets/img/Rectangle 6-10.jpg',
-  //   mp3: 'audio/Imagine Dragons - Natural.mp3',
-  // },
-  // {
-  //   id: '11',
-  //   artist: 'Drake',
-  //   track: 'Laugh Now Cry Later',
-  //   poster: 'assets/img/Rectangle 6-11.jpg',
-  //   mp3: 'audio/Drake - Laugh Now Cry Later.mp3',
-  // },
-  // {
-  //   id: '12',
-  //   artist: 'Madonna',
-  //   track: 'Frozen',
-  //   poster: 'assets/img/Rectangle 6-12.jpg',
-  //   mp3: 'audio/Madonna - Frozen.mp3',
-  // },
-];
+let dataMusic = [];
 
 let playlist = [];
 
@@ -339,3 +254,90 @@ const init = async () => {
 };
 
 init();
+
+// this was a mock list of tracks
+
+// {
+//   id: '1',
+//   artist: 'The weeknd',
+//   track: 'Save your tears',
+//   poster: 'assets/img/Rectangle 6-1.jpg',
+//   mp3: 'audio/The Weeknd - Save Your Tears.mp3',
+// },
+// {
+//   id: '2',
+//   artist: 'Imagine Dragons',
+//   track: 'Follow You',
+//   poster: 'assets/img/Rectangle 6-2.jpg',
+//   mp3: 'audio/Imagine Dragons - Follow You.mp3',
+// },
+// {
+//   id: '3',
+//   artist: 'Tove Lo',
+//   track: 'How Long',
+//   poster: 'assets/img/Rectangle 6-3.jpg',
+//   mp3: 'audio/Tove Lo - How Long.mp3',
+// },
+// {
+//   id: '4',
+//   artist: 'Tom Odell',
+//   track: 'Another Love',
+//   poster: 'assets/img/Rectangle 6-4.jpg',
+//   mp3: 'audio/Tom Odell - Another Love.mp3',
+// },
+// {
+//   id: '5',
+//   artist: 'Lana Del Rey',
+//   track: 'Born To Die',
+//   poster: 'assets/img/Rectangle 6-5.jpg',
+//   mp3: 'audio/Lana Del Rey - Born To Die.mp3',
+// },
+// {
+//   id: '6',
+//   artist: 'Adele',
+//   track: 'Hello',
+//   poster: 'assets/img/Rectangle 6-6.jpg',
+//   mp3: 'audio/Adele - Hello.mp3',
+// },
+// {
+//   id: '7',
+//   artist: 'Tom Odell',
+//   track: "Can't Pretend",
+//   poster: 'assets/img/Rectangle 6-7.jpg',
+//   mp3: "audio/Tom Odell - Can't Pretend.mp3",
+// },
+// {
+//   id: '8',
+//   artist: 'Lana Del Rey',
+//   track: 'Young And Beautiful',
+//   poster: 'assets/img/Rectangle 6-8.jpg',
+//   mp3: 'audio/Lana Del Rey - Young And Beautiful.mp3',
+// },
+// {
+//   id: '9',
+//   artist: 'Adele',
+//   track: 'Someone Like You',
+//   poster: 'assets/img/Rectangle 6-9.jpg',
+//   mp3: 'audio/Adele - Someone Like You.mp3',
+// },
+// {
+//   id: '10',
+//   artist: 'Imagine Dragons',
+//   track: 'Natural',
+//   poster: 'assets/img/Rectangle 6-10.jpg',
+//   mp3: 'audio/Imagine Dragons - Natural.mp3',
+// },
+// {
+//   id: '11',
+//   artist: 'Drake',
+//   track: 'Laugh Now Cry Later',
+//   poster: 'assets/img/Rectangle 6-11.jpg',
+//   mp3: 'audio/Drake - Laugh Now Cry Later.mp3',
+// },
+// {
+//   id: '12',
+//   artist: 'Madonna',
+//   track: 'Frozen',
+//   poster: 'assets/img/Rectangle 6-12.jpg',
+//   mp3: 'audio/Madonna - Frozen.mp3',
+// },
